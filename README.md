@@ -20,7 +20,7 @@ Training was done to sort videos with a single cow and videos with multiple or p
 \
 Training was done to sort videos with a single cow according to behaviour. 'c03.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain.ipynb' was updated to know how much time it took to train the model, 'c03.1.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain.ipynb'.\
 \
-Training was not done to sort plural cows as majority of videos of them are that of 'eating together' and a few where they are 'sitting together' and another few videos of them 'standing together' upon visual examination, very few less than 10.\
+Training was not done to sort plural cows as majority of videos of them are that of 'eating together' and a few where they are 'sitting together' and another few videos of them 'standing together' upon visual examination, very few less than 20.\
 \
 The figures of this filtering is in the flow chart.\
 \
