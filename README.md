@@ -1,4 +1,4 @@
-While I was busy making a working model in 'Video_Classification_Study' and then applying to 'Cow_Video_Classifier version 1', I missed out on pre processing the data.\
+While I was busy making a working model in 'Video_Classification_Study' and then applying to 'Cow_Video_Classifier' version 1, I missed out on pre processing the data.\
 \
 This version fixes that and a couple of other fixes.\
 \
