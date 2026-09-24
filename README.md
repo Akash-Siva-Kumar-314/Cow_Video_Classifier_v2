@@ -1,10 +1,10 @@
-While I was busy making a working model in 'Video_Classification_Study' and 'Cow_Video_Classifier version 1', I missed out on pre processing the data.\
+While I was busy making a working model in 'Video_Classification_Study' and then applying to 'Cow_Video_Classifier version 1', I missed out on pre processing the data.\
 \
 This version fixes that and a couple of other fixes.\
 \
 Pre processing:\
 \
-<img width="1103" height="142" alt="image" src="https://github.com/user-attachments/assets/95a7fc1f-6ae6-418b-93b5-f099ab75ef06" />\
+<img width="1103" height="142" alt="cow data pre process" src="https://github.com/user-attachments/assets/c43982f9-9d0e-4340-af78-8740789686c3" />\
 \
 The video data contained 18944 clips in total. A lot were repeating clips in sequential order of naming. Code was written to take 1 out of every 10 clips in sequential order.The reduced dataset contains 1893 clips.\
 \
@@ -14,7 +14,7 @@ Now some of the videos had some sort of reflection or glare. I treated them as d
 \
 Sorting:\
 \
-<img width="1294" height="552" alt="image" src="https://github.com/user-attachments/assets/fa00a397-7f01-4ddc-ad9f-1cf11a9f58a3" />\
+<img width="1117" height="771" alt="vesion two first train results organized" src="https://github.com/user-attachments/assets/fc46f0aa-5fcb-473d-989f-5d738ca8504a" />\
 \
 Training was done to sort videos with a single cow and videos with multiple or plural cows. 'c02.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb' was updated to know how much time it took to train the model, 'c02.1.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb'.\
 \
