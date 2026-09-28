@@ -31,23 +31,6 @@ Pre processed cow data 1230 clips
 └── miscellaneous 33
 ```
 \
-```mermaid
-graph LR
-    A[Pre processed cow data 1230 clips] --> B[singular cows 689]
-    A --> C[plural cows 508]
-    A --> D[miscellaneous 33]
-    
-    B --> E[cow eating alone 219]
-    B --> F[cow resting alone 265]
-    B --> G[cow standing or walking alone 59]
-    B --> H[miscellaneous 63]
-    
-    C --> I[cows eating together, Majority clips]
-    C --> J[cows resting together, <20 clips]
-    C --> K[cows standing or walking together, <20 clips]
-    C --> L[miscellaneous -]
-```
-\
 Training was done to sort videos with a single cow and videos with multiple or plural cows. 'c02.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb' was updated to know how much time it took to train the model, 'c02.1.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb'.\
 \
 Training was done to sort videos with a single cow according to behaviour. 'c03.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain.ipynb' was updated to know how much time it took to train the model, 'c03.1.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain.ipynb'.\
