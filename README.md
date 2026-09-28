@@ -16,18 +16,37 @@ Sorting:\
 \
 <img width="1117" height="771" alt="vesion two first train results organized" src="https://github.com/user-attachments/assets/fc46f0aa-5fcb-473d-989f-5d738ca8504a" />\
 \
-Pre processed cow data 1230 clips\
-|-- singular cows 689\
-|   |-- cow eating alone 219\
-|   |-- cow resting alone 265\
-|   |-- cow standing or walking alone 59\
-|   \-- miscellaneous 63\
-|-- plural cows 508\
-|   |-- cows eating together, Majority clips\
-|   |-- cows resting together, <20 clips\
-|   |-- cows standing or walking together, <20 clips\
-|   \-- miscellaneous -\
-\-- miscellaneous 33\
+```text
+Pre processed cow data 1230 clips
+├── singular cows 689
+│   ├── cow eating alone 219
+│   ├── cow resting alone 265
+│   ├── cow standing or walking alone 59
+│   └── miscellaneous 63
+├── plural cows 508
+│   ├── cows eating together, Majority clips
+│   ├── cows resting together, <20 clips
+│   ├── cows standing or walking together, <20 clips
+│   └── miscellaneous -
+└── miscellaneous 33
+```
+\
+```mermaid
+graph LR
+    A[Pre processed cow data 1230 clips] --> B[singular cows 689]
+    A --> C[plural cows 508]
+    A --> D[miscellaneous 33]
+    
+    B --> E[cow eating alone 219]
+    B --> F[cow resting alone 265]
+    B --> G[cow standing or walking alone 59]
+    B --> H[miscellaneous 63]
+    
+    C --> I[cows eating together, Majority clips]
+    C --> J[cows resting together, <20 clips]
+    C --> K[cows standing or walking together, <20 clips]
+    C --> L[miscellaneous -]
+```
 \
 Training was done to sort videos with a single cow and videos with multiple or plural cows. 'c02.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb' was updated to know how much time it took to train the model, 'c02.1.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain.ipynb'.\
 \
